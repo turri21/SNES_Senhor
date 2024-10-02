@@ -1,7 +1,3 @@
--=(SNES_Senhor notes)=-
-
-Tested: Working Video 720p, 1080p & Sound
-
 # [Super Nintendo Entertainment System](https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System) for [MiSTer Platform](https://github.com/MiSTer-devel/Main_MiSTer/wiki)
 
 Written by [srg320](https://github.com/srg320)
