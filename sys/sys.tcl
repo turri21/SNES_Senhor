@@ -12,8 +12,8 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_CLK1_50
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_CLK2_50
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_CLK3_50
 set_location_assignment PIN_V11 -to FPGA_CLK1_50
-set_location_assignment PIN_Y13 -to FPGA_CLK2_50
-set_location_assignment PIN_E11 -to FPGA_CLK3_50
+set_location_assignment PIN_E11 -to FPGA_CLK2_50
+set_location_assignment PIN_Y13 -to FPGA_CLK3_50
 
 #============================================================
 # SDRAM
@@ -54,10 +54,6 @@ set_location_assignment PIN_AG14 -to SDRAM_nWE
 set_location_assignment PIN_AH12 -to SDRAM_nCAS
 set_location_assignment PIN_AG11 -to SDRAM_nCS
 set_location_assignment PIN_AG13 -to SDRAM_nRAS
-
-#set_location_assignment PIN_E8 -to SDRAM_DQML
-#set_location_assignment PIN_U14 -to SDRAM_DQMH
-#set_location_assignment PIN_U13 -to SDRAM_CKE
 
 set_instance_assignment -name VIRTUAL_PIN ON -to SDRAM_DQML
 set_instance_assignment -name VIRTUAL_PIN ON -to SDRAM_DQMH
